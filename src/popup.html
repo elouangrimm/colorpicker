@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Color Picker</title>
+    <style>
+        html {
+            color-scheme: light dark; 
+        }
+        
+        body {
+            margin: 10px;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            font-family: Arial, sans-serif;
+            width: 300px;
+            height: 150px;
+        }
+      
+        #colorPicker {
+            width: 100%;
+            height: 50px;
+            border: none;
+            cursor: pointer;
+            border-radius: 10px;
+        }
+        
+        button {
+            font-size: 20px;
+            border-radius: 10px;
+            color: #e6e6e6;
+            background-color: #232323;
+        }
+
+        h3 {
+            margin: 0;
+            padding-bottom: 10px;
+        }
+    </style>
+</head>
+<body>
+    <button id="copyButton">Copy</button>
+    <br>
+    <br>
+    <input type="color" id="colorPicker" value="#000000">
+    <script src="popup.js"></script>
+</body>
+</html>

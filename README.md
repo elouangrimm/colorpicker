@@ -1,2 +1,3 @@
-# colorpicker
-A very basic and simple color picker
+# Color Picker
+
+haha lol figure it out
